@@ -3,14 +3,14 @@
         <el-container>
         <el-header id="header">
             <el-row>
-            <el-col :span="19">
+            <el-col :span="20">
                 <div class="grid-content bg-purple">阳光好帮手</div>
             </el-col>
-            <el-col :span="5">
+            <el-col :span="4">
                 <div class="grid-content bg-purple-light">
                     admin
-                     <el-button type="primary" size="mini" plain>退出</el-button>
-                     <el-button type="primary" size="mini" plain>修改密码</el-button>
+                     <el-button style="background-color:white;color:rgb(255,131,20)" type="primary" size="mini" plain>退出</el-button>
+                     <el-button style="background-color:white;color:rgb(255,131,20)" type="primary" size="mini" plain>修改密码</el-button>
                 </div>
             </el-col>
             </el-row>
@@ -72,7 +72,7 @@
                 </el-col>
             </el-row>
         </el-aside>
-        <el-main><router-view></router-view></el-main>
+        <el-main style = "background-color:rgb(240,240,240)"><router-view></router-view></el-main>
         </el-container>
         </el-container>
     </div>
@@ -107,8 +107,6 @@
   .el-main {
     background-color: #E9EEF3;
     color: #333;
-    text-align: center;
-    line-height: 160px;
   }
   .el-menu-item{
       border-bottom:solid 1px rgb(241,241,241);
